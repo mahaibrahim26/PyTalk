@@ -11,10 +11,18 @@ PyTalk is a Python-based chat application built with `socket`, `threading`, and 
 - Realtime chat with GUI (built using Tkinter)
 - Admin authentication
 - Kick and ban commands
-- User list panel
 - Message history with timestamps
 - Stylish lavender UI with bubbly branding
 
+## Technologies Used
+
+- Python 3
+- `socket` for networking
+- `threading` for handling multiple clients
+- `tkinter` for GUI
+- Local file system for logging and bans
+
+  
 ## How to Run
 
 ### 1. Start the Server
@@ -25,3 +33,24 @@ python3 server.py
 ### 2 . Start a client
 bash
 python3 client.py
+
+## For admin access:
+
+Use nickname: admin
+
+Password: adminpass
+
+## Files
+server.py: Main chat server
+
+client.py: GUI-based chat client
+
+bans.txt: Stores banned usernames
+
+chat_history.txt: Logs chat messages with timestamps
+
+README.md: Project overview
+
+description.txt: Brief project description for submission
+
+
